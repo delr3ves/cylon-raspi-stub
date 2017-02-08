@@ -8,7 +8,7 @@ var Adaptor = lib("adaptor"),
 describe("index", function() {
   describe("#adaptors", function() {
     it("is an array of supplied adaptors", function() {
-      expect(index.adaptors).to.be.eql(['raspi']);
+      expect(index.adaptors).to.be.eql(['raspi-stub']);
     });
   });
 

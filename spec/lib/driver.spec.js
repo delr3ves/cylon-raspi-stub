@@ -12,6 +12,4 @@ describe("Driver", function() {
   it("is a Cylon driver", function() {
     expect(driver).to.be.an.instanceOf(Cylon.Driver);
   });
-
-  it("needs tests");
 });

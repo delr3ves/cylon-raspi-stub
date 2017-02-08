@@ -10,6 +10,4 @@ describe("Adaptor", function() {
   it("is a Cylon adaptor", function() {
     expect(adaptor).to.be.an.instanceOf(Cylon.Adaptor);
   });
-
-  it("needs tests");
 });

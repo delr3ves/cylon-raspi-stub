@@ -6,7 +6,7 @@ var Adaptor = require("./lib/adaptor"),
 module.exports = {
   // Adaptors your module provides, e.g. ["spark"]
   adaptors: [
-    'raspi'
+    'raspi-stub'
   ],
 
   // Drivers your module provides, e.g. ["led", "button"]

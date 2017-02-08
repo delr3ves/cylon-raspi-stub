@@ -1,5 +1,5 @@
 {
-  "name": "raspi-stub",
+  "name": "cyclon-raspi-stub",
   "description": "Just a dummy implementation of cyclon raspi to be able to test in development environments",
   "version": "0.0.0",
   "license": "MIT",

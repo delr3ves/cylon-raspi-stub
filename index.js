@@ -13,7 +13,8 @@ module.exports = {
   drivers: [
     'led',
     'button',
-    'servo'
+    'servo',
+    'direct-pin'
   ],
 
   // Modules intended to be used with yours, e.g. ["cylon-gpio"]

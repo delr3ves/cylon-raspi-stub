@@ -1,17 +1,23 @@
 "use strict";
 
 var Adaptor = require("./lib/adaptor"),
-    Driver = require("./lib/driver");
+  Driver = require("./lib/driver");
 
 module.exports = {
   // Adaptors your module provides, e.g. ["spark"]
-  adaptors: [],
+  adaptors: [
+    'raspi'
+  ],
 
   // Drivers your module provides, e.g. ["led", "button"]
-  drivers: [],
+  drivers: [
+    'led',
+    'button',
+    'servo'
+  ],
 
   // Modules intended to be used with yours, e.g. ["cylon-gpio"]
-  dependencies: [],
+  dependencies: ['cylon-gpio', 'cylon-i2c'],
 
   adaptor: function(opts) {
     return new Adaptor(opts);

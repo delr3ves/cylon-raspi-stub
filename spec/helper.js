@@ -5,8 +5,8 @@ process.env.NODE_ENV = "test";
 var path = require("path");
 
 var chai = require("chai"),
-    sinon = require("sinon"),
-    sinonChai = require("sinon-chai");
+  sinon = require("sinon"),
+  sinonChai = require("sinon-chai");
 
 chai.use(sinonChai);
 

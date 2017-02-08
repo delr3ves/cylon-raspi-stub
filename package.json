@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "author": "Sergio Arroyo <@delr3ves>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delr3ves/cyclonjs-fake-raspi"
+  },
   "devDependencies": {
     "chai": "3.0.0",
     "mocha": "2.2.5",

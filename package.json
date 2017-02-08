@@ -1,6 +1,6 @@
 {
-  "name": "cyclon-raspi-stub",
-  "description": "Just a dummy implementation of cyclon raspi to be able to test in development environments",
+  "name": "cylon-raspi-stub",
+  "description": "Just a dummy implementation of cylon raspi to be able to test in development environments",
   "version": "0.0.0",
   "license": "MIT",
   "author": "Sergio Arroyo <@delr3ves>",

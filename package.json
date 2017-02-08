@@ -1,0 +1,16 @@
+{
+  "name": "raspi-stub",
+  "description": "Just a dummy implementation of cyclon raspi to be able to test in development environments",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Sergio Arroyo <@delr3ves>",
+  "devDependencies": {
+    "chai": "3.0.0",
+    "mocha": "2.2.5",
+    "sinon": "1.15.4",
+    "sinon-chai": "2.8.0"
+  },
+  "dependencies": {
+    "cylon": "1.2.0"
+  }
+}

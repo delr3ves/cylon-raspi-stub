@@ -14,7 +14,7 @@ describe("index", function() {
 
   describe("#drivers", function() {
     it("is an array of supplied drivers", function() {
-      expect(index.drivers).to.be.eql(['led', 'button', 'servo']);
+      expect(index.drivers).to.be.eql(['led', 'button', 'servo', 'direct-pin']);
     });
   });
 
